@@ -21,15 +21,15 @@ class CategorySeeder extends Seeder
         // NOte :: make there is no DUPLICATE name in categories table
 
         $categories = [
-            ['name' => 'OOP Programming',
+            ['name' => 'Travel',
             'created_at' => now(),
             'updated_at' => now()
         ],[
-            'name' => 'Database Administration',
+            'name' => 'Food',
             'created_at' => now(),
             'updated_at' => now()
         ],[
-            'name' => 'Laravel Framework',
+            'name' => 'Lifestyle',
             'created_at' => now(),
             'updated_at' => now()
         ],[
